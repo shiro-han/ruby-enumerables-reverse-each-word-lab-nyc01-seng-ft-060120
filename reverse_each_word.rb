@@ -11,10 +11,8 @@ require 'pry'
 
 def reverse_each_word(string)
   myArray = string.split(" ")
-  myArray.collect do |word|
-    word.reverse
-  end
-  myArray.join(" ")
+  myArray.collect{|word| word.reverse}
+  join(" ")
 end
 
 binding.pry
