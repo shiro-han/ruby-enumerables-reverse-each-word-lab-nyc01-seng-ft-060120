@@ -1,4 +1,4 @@
-require 'pry'
+
 
 #def reverse_each_word(string)
 #  myArray = string.split(" ")
@@ -13,5 +13,3 @@ def reverse_each_word(string)
   myArray = string.split(" ")
   myArray.collect{|word| word.reverse}.join(" ")
 end
-
-binding.pry
