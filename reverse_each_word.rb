@@ -9,7 +9,7 @@ require 'pry'
 #  output.chop
 #end
 
-def reverse_each_wrod(string)
+def reverse_each_word(string)
   myArray = string.split("")
   myArray.collect do |word|
     word.reverse
