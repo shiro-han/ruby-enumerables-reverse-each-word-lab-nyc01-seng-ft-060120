@@ -10,7 +10,7 @@ require 'pry'
 #end
 
 def reverse_each_word(string)
-  myArray = string.split("")
+  myArray = string.split(" ")
   myArray.collect do |word|
     word.reverse
   end
