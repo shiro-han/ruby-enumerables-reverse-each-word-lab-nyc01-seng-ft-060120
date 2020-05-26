@@ -15,3 +15,5 @@ def reverse_each_wrod(string)
     word.reverse
   end
 end
+
+binding.pry
