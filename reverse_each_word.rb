@@ -14,6 +14,7 @@ def reverse_each_word(string)
   myArray.collect do |word|
     word.reverse
   end
+  myArray.join(" ")
 end
 
 binding.pry
