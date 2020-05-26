@@ -2,8 +2,9 @@ require 'pry'
 
 def reverse_each_word(string)
   myArray = string.split(" ")
+  output = ""
   myArray.each do |word|
-    word.reverse
+    output << word.reverse
   end
 end
 
